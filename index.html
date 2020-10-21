@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>我的空间</title>
+    <link rel="shortcut icon" href="favcion.ico" />
+    <link rel="stylesheet" href=" css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bottom.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <aside class="left-bar" id="leftBar">
+            <div class="title">
+                <p>我的空间</p>
+            </div>
+            <nav class="nav">
+                <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>导航</a><i class="line"></i></div>
+                <ul class="nav-item" id="navItem">
+                    <li><a href="#bbs" class="active"><i class="iconfont icon-shequ"></i>平台</a></li>
+                    <li><a href="#sill"><i class="iconfont icon-blogger"></i>项目</a></li>
+                </ul>
+                <div class="item comment"><a href="#"><i class="iconfont icon-liuyan"></i>留言</a></div>
+            </nav>
+        </aside>
+        <section class="main">
+            <div id="mainContent">
+                <!-- 手机端菜单 -->
+                <div id="menu-box">
+                   <div id="menu">
+                       <input type="checkbox" id="menu-form">
+                       <label for="menu-form" class="menu-spin">
+                        <div class="line diagonal line-1"></div>
+                        <div class="line horizontal"></div>
+                        <div class="line diagonal line-2"></div>
+                      </label>
+                    </div>
+                </div>
+                <!-- 平台 -->
+                <div class="box">
+                    <a href="#" name="bbs"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-shequ"></i>平台</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://blog.csdn.net/a1a1e5i9i19a1/">
+                            <div class="item">
+                                <div class="logo"><img src="img/csdn.ico" alt="CSDN"> CSDN</div>
+                                <div class="desc">中国最大的IT社区和服务平台</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://www.cnblogs.com/langzi1996/">
+                            <div class="item">
+                                <div class="logo"><img src="img/cnblogs.ico" alt="博客园"> 博客园</div>
+                                <div class="desc">博客模式的技术分享社区</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://github.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/github.ico" alt="github"> github</div>
+                                <div class="desc">git托管平台</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://stackoverflow.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/stackoverflow.ico" alt="stackoverflow"> stackoverflow</div>
+                                <div class="desc">国外编程相关的IT技术问答网站</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://www.zhihu.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/zhihu.ico" alt="知乎"> 知乎</div>
+                                <div class="desc">与世界分享你的知识、经验和见解</div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://www.bilibili.com/">
+                            <div class="item">
+                                <div class="logo"><img src="img/bilibili.jpg" alt="bilibili"> B站</div>
+                                <div class="desc">追番，观影，学习。</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://leetcode-cn.com/problemset/all/">
+                            <div class="item">
+                                <div class="logo"><img src="img/leecode.png" alt=" leecode"> 力扣</div>
+                                <div class="desc">刷题网站。</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 项目 -->
+                <div class="box">
+                    <a href="#" name="sill"></a>
+                    <div class="sub-category">
+                        <div><i class="iconfont icon-blogger"></i>项目</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="http://log.kongchaoqingnian.cn/">
+                            <div class="item">
+                                <div class="logo"><img src="img/learning_log.png" alt="学习笔记"> 学习笔记</div>
+                                <div class="desc">用Django写的学习笔记，功能还在完善中。</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="copyright">
+                        <div style="width:100%;">
+                            Copyright © 2020- 2030
+                            <a href="https://www.kongchaoqingnian.cn">kongchaoqingnian.cn 版权所有</a>
+                        </div>
+                        <div style="width:100%;margin:0 auto; padding:10px 0;">
+                            <a target="_blank" href="https://beian.miit.gov.cn" class="link">
+                                <p class="word">京ICP备2020034864号</p>
+                            </a>
+                            <a target="_blank" class="link" style="margin-left: 20px"
+                               href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=15090202000135">
+                                <img src="img/beian.png" style="float:left;"/>
+                                <p class="word">蒙公网安备 15090202000135号</p>
+                            </a>
+                        </div>
+                    </div>
+                </footer>
+                <div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z"></path></svg></div>
+            </div>
+        </section>
+        <script src="js/jquery.js"></script>
+        <script>
+        var oMenu = document.getElementById('menu');
+        var oLeftBar = document.getElementById('leftBar');
+        var menuFrom = document.getElementById('menu-form');
+
+        oMenu.onclick = function() {
+            if (oLeftBar.offsetLeft == 0) {
+                oLeftBar.style.left = -249 + 'px';
+            }
+            else {
+                oLeftBar.style.left = 0;
+            }
+        }
+
+
+        // 监听页面宽度变化
+        window.onresize = function() {
+            judgeWidth();
+            // console.log(document.documentElement.clientWidth);
+        };
+
+        // 判断页面宽度
+        function judgeWidth() {
+            if (document.documentElement.clientWidth > 481) {
+                oLeftBar.style.left = 0;
+            } else {
+                oLeftBar.style.left = -249 + 'px';
+            }
+        }
+
+
+        var oNavItem = document.getElementById('navItem');
+        var aA = oNavItem.getElementsByTagName('a');
+        for (var i = 0; i < aA.length; i++) {
+            aA[i].onclick = function() {
+                for (var j = 0; j < aA.length; j++) {
+                    aA[j].className = '';
+                }
+                this.className = 'active';
+                if (oLeftBar.offsetLeft == 0) {
+                    if (document.documentElement.clientWidth <= 481) {
+                        oLeftBar.style.left = -249 + 'px';
+                        menuFrom.checked = false;
+
+                    }
+                }
+            }
+        }
+
+
+        $(window).scroll(function() {
+            if($(window).scrollTop() >= 200){
+                $('#fixedBar').fadeIn(300);
+            }else{
+                $('#fixedBar').fadeOut(300);
+            }
+        });
+        $('#fixedBar').click(function() {
+            $('html,body').animate({scrollTop:'0px'},800);
+        })
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+.link{
+    display:inline-block;
+    text-decoration:none;
+    height:20px;
+    line-height:20px;
+}
+
+.word{
+    float:left;
+    height:20px;
+    line-height:20px;
+    margin: 0 0 0 5px;
+    color:#939393;
+}
